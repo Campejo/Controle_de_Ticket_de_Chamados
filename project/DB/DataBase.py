@@ -2,7 +2,7 @@ import psycopg2
 from psycopg2 import sql
 from datetime import datetime
 
-class AppDB:
+class DataBase:
 
     def __init__(self):
         self.url = "dbname='postgres' user='postgres' host='localhost' password='131627'"

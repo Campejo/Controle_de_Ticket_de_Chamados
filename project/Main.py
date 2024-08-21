@@ -1,7 +1,7 @@
 import tkinter as tk
 from datetime import datetime
 
-from project.DB.DataBase import AppDB
+from project.DB.DataBase import DataBase
 from tkinter import ttk, messagebox
 
 
@@ -12,7 +12,7 @@ class MainApp:
         self.root.geometry("900x600")
         self.root.configure(bg="#F7F7F7")
 
-        self.db = AppDB()
+        self.db = DataBase()
 
         # Variáveis para controle de IDs
         self.id = 0
