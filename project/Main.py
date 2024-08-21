@@ -1,7 +1,7 @@
 import tkinter as tk
 from datetime import datetime
 
-from project.DB.AppDB import AppDB
+from project.DB.DataBase import AppDB
 from tkinter import ttk, messagebox
 
 
